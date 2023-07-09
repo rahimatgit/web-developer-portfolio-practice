@@ -1,0 +1,25 @@
+/*universal font style */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Header section (navbar) */
+nav li {
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav span{
+    color: #FD6E0A;
+}
+nav h3{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
