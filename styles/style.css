@@ -2,18 +2,23 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-/* Header section (navbar) */
+/* Navigation section */
 nav li {
     list-style: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
 nav ul{
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 230px;
 }
 nav span{
     color: #FD6E0A;
@@ -22,4 +27,13 @@ nav h3{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+nav > ul > button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
