@@ -2,7 +2,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-/* Navigation section */
+/*................ 
+Navigation section
+.................. */
 nav li {
     list-style: none;
     color: #474747;
@@ -18,7 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px;
+    padding: 50px 230px;
 }
 nav span{
     color: #FD6E0A;
@@ -28,7 +30,7 @@ nav h3{
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul > button{
+.btn-primary{
     padding: 15px 25px;
     border-radius: 5px;
     background: #FD6E0A;
@@ -37,3 +39,55 @@ nav > ul > button{
     font-size: 20px;
     font-weight: 700;
 }
+
+/*.....................
+ Header section
+ ................ */
+ .header-styles{
+    max-width: 1600px;
+    max-height: 850px;
+    background: #FFF8F3;
+ }
+ section h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+ }
+ section h1{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+ }
+ section p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .front-page{
+    margin: 50px 0px 50px 230px;
+    width: 50%;
+ 
+ }
+ .btn-secondary{
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #FFF;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .profile-img{
+    width: 100%;
+    height: 92%;
+    /* background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom; */
+ }
+ .profile{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+ }
